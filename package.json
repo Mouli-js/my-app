@@ -2,12 +2,16 @@
   "name": "project-1",
   "version": "1.0.0",
   "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "NODE_ENV=development node backend/server.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "NODE_ENV=production node backend/server.js"
   },
+  "engines": {
+  "node": "20.x"
+},
   "type": "module",
   "keywords": [],
   "author": "",
@@ -25,4 +29,5 @@
     "mongoose": "^8.9.2",
     "zustand": "^5.0.3"
   }
+  
 }
