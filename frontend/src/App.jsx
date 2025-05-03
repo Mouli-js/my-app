@@ -1,8 +1,8 @@
 import { Box, CssBaseline } from "@mui/material";
 import React, { createContext, useMemo, useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import CreatePage from "./pages/CreatePage";
-import HomePage from "./pages/HomePage";
+import CreatePage from "./Pages/CreatePage";
+import HomePage from "./Pages/HomePage.jsx";
 import Navbar from "./Components/Navbar.jsx";
 import { createTheme, ThemeProvider } from "@mui/material/styles"; 
 
